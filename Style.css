@@ -1,0 +1,42 @@
+.navbar{
+    font-size:20px;
+    border-radius:0px;
+
+}
+.nav  > li > a{
+    padding-top:25px;
+    padding:25px 30px;
+    min-height:75px;
+}
+
+.navbar-brand{
+    font-size:35px;
+    padding-top:25px;
+    min-height:75px;
+}
+
+.navbar-toggle{
+    margin-top: 20px;
+}
+.well{
+    border-radius:0px;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+.affix ~ .container-fluid {
+     position: relative;
+     top: 95px;
+}
+   
+.carousel {
+    height:600px;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+    max-height:600px;
+}
